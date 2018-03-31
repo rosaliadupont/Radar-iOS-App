@@ -1,0 +1,6 @@
+framework module Pods_RADAR {
+  umbrella header "Pods-RADAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

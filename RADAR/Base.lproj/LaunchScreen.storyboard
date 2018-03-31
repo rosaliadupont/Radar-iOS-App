@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3xlogo" translatesAutoresizingMaskIntoConstraints="NO" id="MZP-EJ-ndi">
+                                <rect key="frame" x="127" y="247" width="156" height="147"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="5yF-uN-gOH"/>
+                                    <constraint firstAttribute="height" constant="147" id="u9O-NT-Fcs"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="word_logo" translatesAutoresizingMaskIntoConstraints="NO" id="DdU-UO-kc8">
+                                <rect key="frame" x="134" y="411" width="143" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="143" id="fZk-A2-AyZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="DdU-UO-kc8" secondAttribute="bottom" constant="293" id="OpF-GS-2JI"/>
+                            <constraint firstItem="MZP-EJ-ndi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="127" id="fi5-yZ-EFQ"/>
+                            <constraint firstItem="DdU-UO-kc8" firstAttribute="centerX" secondItem="MZP-EJ-ndi" secondAttribute="centerX" id="mv6-UI-2hv"/>
+                            <constraint firstItem="MZP-EJ-ndi" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="227" id="nRW-9e-BRj"/>
+                            <constraint firstItem="DdU-UO-kc8" firstAttribute="top" secondItem="MZP-EJ-ndi" secondAttribute="bottom" constant="17" id="yjp-QB-KpK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3xlogo" width="60" height="60"/>
+        <image name="word_logo" width="500" height="130"/>
+    </resources>
+</document>
